@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <h1>Bienvenido 🌟</h1>
+  <h2>Esteban necuse 🌟</h2>
+  <h2>Alumno: 227582 🌟</h2>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #a0d2eb, #f2f2f2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.2em;
+      color: #3b3b3b;
+    }
+    p {
+      font-size: 1.1em;
+      color: #666;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #5c99d6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #407bbf;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Hola Esteban! 👋</h1>
+    <p>Tu sitio está vivo y bien. Ahora empieza la magia del desarrollo.</p>
+    <button class="btn">Ver más</button>
+  </div>
+</body>
+</html>
